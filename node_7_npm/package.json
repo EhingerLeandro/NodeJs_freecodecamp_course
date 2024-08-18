@@ -1,0 +1,14 @@
+{
+  "name": "node_7_npm",
+  "version": "1.0.0",
+  "description": "paquete de prueba",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "leandro",
+  "license": "ISC",
+  "dependencies": {
+    "express": "^4.19.2"
+  }
+}
