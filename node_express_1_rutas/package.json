@@ -1,0 +1,14 @@
+{
+  "name": "node_express_1",
+  "version": "1.0.0",
+  "description": "primer servidor con express",
+  "main": "appServer.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "leandro",
+  "license": "ISC",
+  "dependencies": {
+    "express": "^4.19.2"
+  }
+}

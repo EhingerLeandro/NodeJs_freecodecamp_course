@@ -1,6 +1,6 @@
 const pizzaRatioExito = () => Math.random() > 0.6;
 
-//Sintaxis función flecha
+//Sintaxis función flecha es diferente a la asignación, no tiene return porque se hace en la línea inicial
 const pizzaPedido = ()=> new Promise((resolve, reject)=>{
 	setTimeout(() =>{
 		if(pizzaRatioExito()){

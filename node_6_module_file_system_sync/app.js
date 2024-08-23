@@ -14,7 +14,7 @@ console.log(readFile);
 // 	console.log("cambio a nombre 'index.html' exitoso."); })
 
 const addingText = fs.appendFileSync("index.html", "<p>Información adicionada</p>");
-console.log(addingText);
+console.log("appendFileSync "+addingText);
 
 const overwrite =fs.writeFileSync("newIndex.html", "Esta es la información sobre-escrita otra vez");
-console.log(overwrite);
+console.log("writeFileSync "+overwrite);

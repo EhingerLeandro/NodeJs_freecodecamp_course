@@ -10,7 +10,7 @@ fs.readFile("index.html", "utf-8", (err, contenido)=>{
 	}else{
 		console.log(contenido);
 	}
-	console.log("texto para probar throw err.");
+	console.log("1 texto para probar throw err.");
 })
 
 // fs.rename("index.html", "main.html", (err)=>{
@@ -27,14 +27,14 @@ fs.appendFile("index.html", "<p>Información adicionada</p>", (err)=>{
 	if(err){
 		throw err;
 	}
-	console.log("Adición al archivo completado.");
+	console.log("2 Adición al archivo completado.");
 })
 
 fs.writeFile("newIndex.html", "Esta es la información sobre-escrita", (err)=>{
 	if(err){
 		throw err;
 	}
-	console.log(`Sobre-escritura del archivo 'newIndex.html' completado en 
+	console.log(`3 Sobre-escritura del archivo 'newIndex.html' completado en 
 caso de que ya exista, de lo contrario crea uno nuevo. `);
 })
 

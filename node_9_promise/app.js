@@ -33,7 +33,7 @@ const manejoRechazo = (error) =>{
 promisedOne.then(manejoCumplimiento, manejoRechazo);
 
 
-//Sintaxis usando then y catch respecto a la asignación de promesa #1
+//Sintaxis usando then y catch respecto a la asignación de promesa #1 segunda opción
 promisedOne.then((value)=>{
 	console.log(value);
 }).catch((error)=>{
