@@ -1,0 +1,14 @@
+{
+  "name": "node_express_2_query_params",
+  "version": "1.0.0",
+  "description": "",
+  "main": "appServer.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "leandro",
+  "license": "ISC",
+  "dependencies": {
+    "express": "^4.19.2"
+  }
+}
