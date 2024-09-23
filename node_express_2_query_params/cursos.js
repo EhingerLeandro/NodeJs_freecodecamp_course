@@ -4,7 +4,7 @@ let infoCursos = {
             id:1,
             titulo:"Aprende python",
             lenguaje: "python", 
-            vistas: 15250,
+            vistas: 15250 , 
             nivel:"basico" 
         },
         {

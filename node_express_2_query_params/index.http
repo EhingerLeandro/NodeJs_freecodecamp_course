@@ -1,0 +1,36 @@
+
+POST http://localhost:3003/api/cursos/programacion HTTP/1.1
+Content-Type: application/json
+
+{
+    "id": 4,
+    "titulo": "Aprende Node.js",
+    "lenguaje": "javascript",
+    "vistas": 18500,
+    "nivel": "basico"
+}
+
+###
+
+PUT http://localhost:3003/api/cursos/programacion/3 HTTP/1.1
+Content-Type: application/json
+
+{
+    "id":3,
+    "titulo":"Python proyectos avanzados",
+    "lenguaje":"python",
+    "vistas": 19200,
+    "nivel": "avanzado"
+}
+
+###
+PATCH http://localhost:3003/api/cursos/programacion/2 HTTP/1.1
+Content-Type: application/json
+
+{
+    "titulo":"Se cambió solo el título y las vistas",
+    "vistas":20500
+}
+
+###
+DELETE http://localhost:3003/api/cursos/programacion/1 HTTP/1.1
